@@ -17,7 +17,9 @@ A Hello World Java project integrated with the Evernote SDK. A place to have a g
 
 5\. Copy your Developer Token into the top of Main.java in the String variable DEVELOPER_TOKEN. The line will look something like ``private static final String DEVELOPER_TOKEN = "S=s1:U=91234...";`` Optionally, if you want to run the EDAMDemo you can also paste your Developer Token into the AUTH_TOKEN variable as well.
 
-6\. Add some code to the main() method in Main.java and hit run!
+6\. Hit run and you should see some output like ``EvernoteHelper - authenticated to username = johnsmith``. 
+
+7\. Add more code to the main() method. Most importantly, have a great time!
 
 ## File Walkthrough
 
