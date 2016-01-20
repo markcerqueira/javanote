@@ -19,11 +19,11 @@ A Hello World Java project integrated with the Evernote SDK
 
 ## File Walkthrough
 
-* EDAMDemo.java - The [demo code][5] available from the Evernote Java SDK. Modified so it can run by calling EDAMDemo.runDemo(). Put your Developer Token in the AUTH_TOKEN variable before running the demo code!
-* EvernoteHelper.java - A wrapper around the Evernote Java SDK that simplifies calls to the Evernote API.
-* ExchangeRateAPI.java - A wrapper around the currency exchange APIs provided by [fixer.io][6].
-* LogHelper.java - A simple helper for writing messages out to the console.
-* Main.java - The main entry point for code. Only code called from the main() method will get executed!
+* **EDAMDemo.java** - The [demo code][5] available from the Evernote Java SDK. Modified so it can run by calling EDAMDemo.runDemo(). Put your Developer Token in the AUTH_TOKEN variable before running the demo code!
+* **EvernoteHelper.java** - A wrapper around the Evernote Java SDK that simplifies calls to the Evernote API.
+* **ExchangeRateAPI.java** - A wrapper around the currency exchange APIs provided by [fixer.io][6].
+* **LogHelper.java** - A simple helper for writing messages out to the console.
+* **Main.java** - The main entry point for code. Only code called from the main() method will get executed!
 
 [1]: https://github.com/markcerqueira/javanote
 [2]: https://github.com/markcerqueira/javanote/archive/master.zip
