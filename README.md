@@ -7,9 +7,9 @@ A Hello World Java project integrated with the Evernote SDK. A place to have a g
 
 ![Download ZIP Image](http://imgur.com/fxven7C.png)
 
-2a\. For users NOT on Yinxiang Biji: create an Evernote account on the [sandbox environment][3]. This user will be SEPARATE from your main Evernote user that runs on the production environment. Sandbox accounts are much easier to integrate with the Evernote API and your data will be safer from your code as well! :) Visit [https://sandbox.evernote.com/api/DeveloperToken.action][4] to create a Developer Token.
+2a\. For users NOT on Yinxiang Biji: create an Evernote account on the [sandbox environment][3]. This user will be SEPARATE from your main Evernote user that runs on the production environment. Sandbox accounts are much easier to integrate with the Evernote API and your data will be safer from your code as well! :) Visit [sandbox.evernote.com/api/DeveloperToken.action][4] to create a Developer Token.
 
-2b\. For Yinxiang Biji (YXBJ) users: create a new account [here][7]. YXBJ does not have a sandbox environment. You could use your regular YXBJ log-in information, but it will be safer to have a separate account where you don't care about deleting data. :) If you are logged in already, log out and create a new user so you can play around safely. After creating a new user, visit [https://app.yinxiang.com/api/DeveloperToken.action][8] to create a Developer Token.
+2b\. For Yinxiang Biji (YXBJ) users: create a new YXBJ account [here][7]. YXBJ does not have a sandbox environment. You could use your regular YXBJ log-in information, but it will be safer to have a separate account where you don't care about deleting data. :) If you are logged in already, log out and create a new user so you can play around safely. After creating a new user, visit [app.yinxiang.com/api/DeveloperToken.action][8] to create a Developer Token.
 
 Do not share your Developer token as it gives anyone who knows how to use the Evernote API access to read and modify your account! 
 
