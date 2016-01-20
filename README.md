@@ -1,5 +1,5 @@
 # javanote
-A Hello World Java project integrated with the Evernote SDK
+A Hello World Java project integrated with the Evernote SDK. A place to have a good time and create some notes, notebooks, and stuff.
 
 ## Setting Up
 
