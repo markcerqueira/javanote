@@ -33,6 +33,10 @@ public class EvernoteHelper {
      *
      */
     public EvernoteHelper(String developerToken) {
+        this(developerToken, false /* by default not Yinxiang Biji */);
+    }
+
+    public EvernoteHelper(String developerToken, boolean isYinxiang) {
         // Make sure the caller passed a valid developerToken
         if (developerToken == null || developerToken.length() == 0 || developerToken.equals("PASTE_YOUR_TOKEN_HERE")) {
             throw new RuntimeException("EvernoteHelper - developerToken must be passed!");
@@ -40,7 +44,13 @@ public class EvernoteHelper {
 
         try {
             // Set up the UserStore client and check that we can speak to the server
-            EvernoteAuth evernoteAuth = new EvernoteAuth(EvernoteService.SANDBOX, developerToken);
+            EvernoteAuth evernoteAuth;
+            if (isYinxiang) {
+                evernoteAuth = new EvernoteAuth(EvernoteService.YINXIANG, developerToken);
+            } else {
+                evernoteAuth = new EvernoteAuth(EvernoteService.SANDBOX, developerToken);
+            }
+
             ClientFactory factory = new ClientFactory(evernoteAuth);
             mUserStoreClient = factory.createUserStoreClient();
 

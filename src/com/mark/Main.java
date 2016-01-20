@@ -3,10 +3,14 @@ package com.mark;
 public class Main {
 
     // Get your Developer Token here: https://sandbox.evernote.com/api/DeveloperToken.action
+    // On Yinxiang Biji: https://app.yinxiang.com/api/DeveloperToken.action
     private static final String DEVELOPER_TOKEN = "PASTE_YOUR_TOKEN_HERE";
 
     public static void main(String[] args) {
         EvernoteHelper myFirstEvernoteHelper = new EvernoteHelper(DEVELOPER_TOKEN);
+
+        // Yinxiang Biji users need to call this version of the constructor
+        // EvernoteHelper myFirstEvernoteHelper = new EvernoteHelper(DEVELOPER_TOKEN, true /* YXBJ user */);
 
         // myFirstEvernoteHelper.listAllNotes();
 
