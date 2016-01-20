@@ -13,9 +13,11 @@ A Hello World Java project integrated with the Evernote SDK. A place to have a g
 
 ![Developer Token](http://imgur.com/ItF2cAv.png)
 
-4\. Copy your Developer Token into the top of Main.java in the String variable DEVELOPER_TOKEN. If you want to run the EDAMDemo you can also paste your Developer Token into the AUTH_TOKEN variable.
+4\. Open the project by unzipping it and opening it in IntelliJ IDEA. You can do this from Open in the File menu. 
 
-5\. Add some code to the main() method in Main.java and hit run!
+5\. Copy your Developer Token into the top of Main.java in the String variable DEVELOPER_TOKEN. The line will look something like ``private static final String DEVELOPER_TOKEN = "S=s1:U=91234...";`` Optionally, if you want to run the EDAMDemo you can also paste your Developer Token into the AUTH_TOKEN variable as well.
+
+6\. Add some code to the main() method in Main.java and hit run!
 
 ## File Walkthrough
 
