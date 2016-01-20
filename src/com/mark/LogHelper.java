@@ -5,9 +5,19 @@ package com.mark;
  */
 public class LogHelper {
 
-    // Logs a basic message to the log
+    // Logs a String message to the log
     public static void log(String message) {
         System.out.println(message);
+    }
+
+    // Logs an int to the log
+    public static void log(int integer) {
+        log("" + integer);
+    }
+
+    // Logs a float to the log
+    public static void log(float number) {
+        log("" + number);
     }
 
     // Logs an error message to the log
@@ -22,7 +32,7 @@ public class LogHelper {
     }
 
     // Logs an empty line to the console
-    public static void logNewLine() {
+    public static void newLine() {
         System.out.println();
     }
 }

@@ -45,7 +45,7 @@ public class EvernoteHelper {
             mUserStoreClient = factory.createUserStoreClient();
 
             LogHelper.log("EvernoteHelper - authenticated to username = " + mUserStoreClient.getUser().getUsername());
-            LogHelper.logNewLine();
+            LogHelper.newLine();
 
             // Set up the NoteStore client. We'll need this object to manipulate the notes/notebooks in the user account.
             mNoteStoreClient = factory.createNoteStoreClient();
@@ -57,10 +57,10 @@ public class EvernoteHelper {
     /**
      *  Retrieves a list of all notes in the user account and prints them to the console.
      */
-    public void listNotes() {
+    public void listAllNotes() {
         try {
             // Log a message saying we're going to list the notes in the user account
-            LogHelper.log("listNotes - listing notes in user account: ");
+            LogHelper.log("listAllNotes - listing notes in user account: ");
 
             // First, get a list of all notebooks
             List<Notebook> notebooks = mNoteStoreClient.listNotebooks();
@@ -88,7 +88,7 @@ public class EvernoteHelper {
             }
 
             // Prints an empty line
-            LogHelper.logNewLine();
+            LogHelper.newLine();
         } catch (Exception e) {
             LogHelper.logException(e);
         }
@@ -135,7 +135,7 @@ public class EvernoteHelper {
             String createdNoteGUID = createdNote.getGuid();
 
             LogHelper.log("createNote - successfully created a new note with title = " + createdNoteTitle + "; note GUID = " + createdNoteGUID);
-            LogHelper.logNewLine();
+            LogHelper.newLine();
         } catch (Exception e) {
             LogHelper.logException(e);
         }
@@ -160,7 +160,7 @@ public class EvernoteHelper {
             // Log the name of the createdNotebook. Note that the String we get when we call getName() and the notebookName
             // we passed above SHOULD match because we did tell the server to create the notebook with that name.
             LogHelper.log("createNotebook - successfully created a new notebook with name = " + createdNotebook.getName() + "; notebook GUID = " + createdNotebook.getGuid());
-            LogHelper.logNewLine();
+            LogHelper.newLine();
         } catch (Exception e) {
             LogHelper.logException(e);
         }
