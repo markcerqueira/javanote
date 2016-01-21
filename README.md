@@ -1,5 +1,8 @@
 # javanote
-A Hello World Java project integrated with the Evernote SDK. A place to have a good time and create some notes, notebooks, and stuff.
+A Hello World Java project integrated with the Evernote SDK. A place to have a good time and create some notes, notebooks, and stuff. This code was developed and used for an Evernote workshop to introduce non-engineer Evernote employees from around the world to the Evernote API. The [hello-java][23] repository was covered before this repository to gain a basic grasp on Java and APIs. 
+
+For more information on the Evernote SDK, visit the [Evernote Developer Center][20]. Evernote is also hiring so check
+out the [Evernote Careers][21] page; let me know if you have any questions about working at Evernote!
 
 ## Setting Up
 
@@ -41,3 +44,6 @@ Do not share your Developer token as it gives anyone who knows how to use the Ev
 [6]: http://fixer.io/
 [7]: https://app.yinxiang.com/api
 [8]: https://app.yinxiang.com/api/DeveloperToken.action
+[20]: https://dev.evernote.com/
+[21]: https://evernote.com/careers/
+[23]: https://github.com/markcerqueira/hello-java
